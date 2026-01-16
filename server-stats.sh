@@ -17,9 +17,11 @@ echo	#SPACE
 
 
 #Top 5 processes by CPU
+echo "Top 5 processes by CPU:"
 ps aux --sort=-%cpu | head -n 6
 echo	#SPACE
 
 
 #Top 5 processes by memory usage
+echo "Top 5 processes by memory:"
 ps aux --sort=-%mem | head -n 6
